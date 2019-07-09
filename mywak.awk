@@ -5,7 +5,7 @@ mydate=$2;
 }
 else{
 if (NF==2){
-print NF,mydate, $0
+print "\n<span class=\"titre-date-publication\">",mydate,"</span>\n", $0;
 }
 }
 }
